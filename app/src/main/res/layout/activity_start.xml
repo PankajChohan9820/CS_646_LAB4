@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <!-- Your existing UI components -->
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_marginTop="16dp" />
+    <!-- activity_start.xml -->
+<!--    <Button-->
+<!--        android:id="@+id/cameraButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Camera" />-->
+    <Button
+        android:id="@+id/soundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound" />
+
+    <Button
+        android:id="@+id/animationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation" />
+
+
+</LinearLayout>
